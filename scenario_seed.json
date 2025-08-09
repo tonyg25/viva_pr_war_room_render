@@ -1,0 +1,31 @@
+{
+  "scenario": "Free Speech or Hate Speech? (Campus)",
+  "seed_posts": [
+    {
+      "t": 1,
+      "kind": "news",
+      "source": "BBC North West",
+      "text": "Lancashire lecturer suspended following complaint over classroom discussion. University says it has 'zero tolerance' for discriminatory language.",
+      "tone": "neutral"
+    },
+    {
+      "t": 5,
+      "kind": "news",
+      "source": "Lancashire Evening Post",
+      "text": "Student complaint sparks suspension of university lecturer after debate on free speech; safeguarding and investigation underway.",
+      "tone": "neutral"
+    },
+    {
+      "t": 9,
+      "kind": "social",
+      "handle": "@CampusChronicle",
+      "followers": 5400,
+      "text": "Another academic muzzled? Free speech under fire again in the North West.",
+      "tone": "negative",
+      "mentions": [
+        "@ExampleUni"
+      ]
+    }
+  ],
+  "gold_statement": "Sample best practice holding statement text."
+}
